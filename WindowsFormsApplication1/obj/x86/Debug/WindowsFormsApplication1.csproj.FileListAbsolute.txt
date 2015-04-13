@@ -16,3 +16,5 @@ D:\Dropbox\大学\课件作业等\GIS二次开发\test1\WindowsFormsApplication1
 D:\Dropbox\大学\课件作业等\GIS二次开发\test1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
 D:\Dropbox\大学\课件作业等\GIS二次开发\test1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
 D:\Dropbox\大学\课件作业等\GIS二次开发\test1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe.licenses
+C:\Users\hjzz\Documents\GitHub\ArcEngine\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\Users\hjzz\Documents\GitHub\ArcEngine\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb

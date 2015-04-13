@@ -283,6 +283,11 @@ namespace WindowsFormsApplication1
 
         }
 
+        private void dockPanel2_Click(object sender, EventArgs e)
+        {
+
+        }
+
        
 
 

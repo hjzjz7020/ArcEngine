@@ -59,6 +59,11 @@
             this.controlContainer2 = new DevExpress.XtraBars.Docking.ControlContainer();
             this.axMapControl1 = new ESRI.ArcGIS.Controls.AxMapControl();
             this.axLicenseControl1 = new ESRI.ArcGIS.Controls.AxLicenseControl();
+            this.xtraScrollableControl1 = new DevExpress.XtraEditors.XtraScrollableControl();
+            this.dockPanel1 = new DevExpress.XtraBars.Docking.DockPanel();
+            this.controlContainer3 = new DevExpress.XtraBars.Docking.ControlContainer();
+            this.dockPanel2 = new DevExpress.XtraBars.Docking.DockPanel();
+            this.dockPanel2_Container = new DevExpress.XtraBars.Docking.ControlContainer();
             ((System.ComponentModel.ISupportInitialize)(this.Btn_Refresh)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dockManager1)).BeginInit();
             this.panelContainer1.SuspendLayout();
@@ -71,6 +76,8 @@
             this.attribute.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.axMapControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.axLicenseControl1)).BeginInit();
+            this.dockPanel1.SuspendLayout();
+            this.dockPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // Btn_Refresh
@@ -236,7 +243,9 @@
             this.dockManager1.Form = this;
             this.dockManager1.RootPanels.AddRange(new DevExpress.XtraBars.Docking.DockPanel[] {
             this.panelContainer1,
-            this.attribute});
+            this.attribute,
+            this.dockPanel1,
+            this.dockPanel2});
             this.dockManager1.TopZIndexControls.AddRange(new string[] {
             "DevExpress.XtraBars.BarDockControl",
             "DevExpress.XtraBars.StandaloneBarDockControl",
@@ -356,11 +365,58 @@
             this.axLicenseControl1.Size = new System.Drawing.Size(32, 32);
             this.axLicenseControl1.TabIndex = 2;
             // 
+            // xtraScrollableControl1
+            // 
+            this.xtraScrollableControl1.Location = new System.Drawing.Point(653, 406);
+            this.xtraScrollableControl1.Name = "xtraScrollableControl1";
+            this.xtraScrollableControl1.Size = new System.Drawing.Size(8, 8);
+            this.xtraScrollableControl1.TabIndex = 6;
+            // 
+            // dockPanel1
+            // 
+            this.dockPanel1.Controls.Add(this.controlContainer3);
+            this.dockPanel1.Dock = DevExpress.XtraBars.Docking.DockingStyle.Float;
+            this.dockPanel1.FloatLocation = new System.Drawing.Point(842, 411);
+            this.dockPanel1.ID = new System.Guid("5b17912b-981e-4615-9f0b-189627c3d6d9");
+            this.dockPanel1.Location = new System.Drawing.Point(0, 0);
+            this.dockPanel1.Name = "dockPanel1";
+            this.dockPanel1.OriginalSize = new System.Drawing.Size(200, 200);
+            this.dockPanel1.Size = new System.Drawing.Size(200, 200);
+            this.dockPanel1.Text = "dockPanel1";
+            // 
+            // controlContainer3
+            // 
+            this.controlContainer3.Location = new System.Drawing.Point(3, 22);
+            this.controlContainer3.Name = "controlContainer3";
+            this.controlContainer3.Size = new System.Drawing.Size(194, 175);
+            this.controlContainer3.TabIndex = 0;
+            // 
+            // dockPanel2
+            // 
+            this.dockPanel2.Controls.Add(this.dockPanel2_Container);
+            this.dockPanel2.Dock = DevExpress.XtraBars.Docking.DockingStyle.Float;
+            this.dockPanel2.FloatLocation = new System.Drawing.Point(503, 407);
+            this.dockPanel2.ID = new System.Guid("8bddf8d8-6b81-4b20-aa00-53d228a89f8a");
+            this.dockPanel2.Location = new System.Drawing.Point(0, 0);
+            this.dockPanel2.Name = "dockPanel2";
+            this.dockPanel2.OriginalSize = new System.Drawing.Size(200, 200);
+            this.dockPanel2.Size = new System.Drawing.Size(200, 200);
+            this.dockPanel2.Text = "dockPanel2";
+            this.dockPanel2.Click += new System.EventHandler(this.dockPanel2_Click);
+            // 
+            // dockPanel2_Container
+            // 
+            this.dockPanel2_Container.Location = new System.Drawing.Point(3, 22);
+            this.dockPanel2_Container.Name = "dockPanel2_Container";
+            this.dockPanel2_Container.Size = new System.Drawing.Size(194, 175);
+            this.dockPanel2_Container.TabIndex = 0;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1350, 709);
+            this.Controls.Add(this.xtraScrollableControl1);
             this.Controls.Add(this.axLicenseControl1);
             this.Controls.Add(this.axMapControl1);
             this.Controls.Add(this.attribute);
@@ -381,6 +437,8 @@
             this.attribute.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.axMapControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.axLicenseControl1)).EndInit();
+            this.dockPanel1.ResumeLayout(false);
+            this.dockPanel2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -416,6 +474,11 @@
         private DevExpress.XtraBars.BarButtonItem Btn_Last;
         private DevExpress.XtraBars.BarButtonItem Btn_Next;
         private DevExpress.XtraBars.Docking.DockPanel panelContainer1;
+        private DevExpress.XtraEditors.XtraScrollableControl xtraScrollableControl1;
+        private DevExpress.XtraBars.Docking.DockPanel dockPanel1;
+        private DevExpress.XtraBars.Docking.ControlContainer controlContainer3;
+        private DevExpress.XtraBars.Docking.DockPanel dockPanel2;
+        private DevExpress.XtraBars.Docking.ControlContainer dockPanel2_Container;
     }
 }
 
